@@ -3,7 +3,7 @@ import debounce from 'lodash/debounce';
 import { refs } from './refs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { renderMovies } from './card-film-render';
-import onHomeBtn from './nav-bar/nav-btns-functions'
+import { onHomeBtn } from './nav-bar/nav-btns-functions'
 
 const DEBOUNCE_DELAY = 1000;
 const movieApi = new MovieApi();
